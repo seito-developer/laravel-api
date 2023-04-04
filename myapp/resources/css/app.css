@@ -1,0 +1,36 @@
+.form {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    padding: 20px;
+    text-align: center;
+}
+.form__row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.form__title {
+    font-weight: bold;
+    padding: 5px;
+    width: 40%;
+}
+.form__data {
+    padding: 5px;
+    width: 60%;
+}
+.form__input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+}
+.form__buton {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #b0d9e5;
+    border: 1px solid  #5e7f89;
+}
