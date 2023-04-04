@@ -34,3 +34,21 @@
     background-color: #b0d9e5;
     border: 1px solid  #5e7f89;
 }
+
+.result {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000;
+    margin-top: 50px;
+    text-align: center;
+}
+.result dt {
+    font-weight: bold;
+    font-size: 20px;
+}
+.result img {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}

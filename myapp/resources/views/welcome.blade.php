@@ -38,12 +38,14 @@
         </form>
 
         @if (isset($pokemon_data))
-            <div>
-                <h2>{{ $pokemon_data['name'] }}</h2>
-                <img src="{{ $pokemon_data['sprites']['front_default'] }}" alt="{{ $pokemon_data['name'] }}">
-                <p>{{ $pokemon_data['height'] }} decimetres</p>
-                <p>{{ $pokemon_data['weight'] }} hectograms</p>
-            </div>
+            <dl class="result">
+                <dt>{{ $pokemon_data['name'] }}</dt>
+                <dd>
+                    <img src="{{ $pokemon_data['sprites']['front_default'] }}" alt="{{ $pokemon_data['name'] }}">
+                </dd>
+                <dd>{{ $pokemon_data['height'] }} デシメートル</dd>
+                <dd>{{ $pokemon_data['weight'] }} ヘクトグラム</dd>
+            </dl>
         @endif
         
     </body>
